@@ -1,0 +1,19 @@
+<div class="container mt-2">
+  <ul class="nav nav-pills nav-justified">
+      <li class="nav-item">
+          <a class="nav-link"  routerLinkActive="active"  routerLink="/way-1">Way 1</a>
+      </li>
+      <li class="nav-item bg-success">
+          <a class="nav-link text-white"  >{{title}}</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/way-2">Way 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/way-3">Table From Service</a>
+      </li>
+  </ul>
+</div>
+<div class="container mt-3">
+  <router-outlet></router-outlet>
+</div>
